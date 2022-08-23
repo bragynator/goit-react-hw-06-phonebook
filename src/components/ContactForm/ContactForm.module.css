@@ -1,0 +1,24 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px;
+}
+
+.contactForm > label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.contactForm input {
+  margin-top: 5px;
+}
+
+.contactForm > button {
+  align-self: center;
+  width: 150px;
+  height: 30px;
+
+  cursor: pointer;
+}
